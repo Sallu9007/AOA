@@ -22,16 +22,16 @@ class MergeSort {
 		k = p;
 
 
-		// while (i < n1 && j < n2) {
-		// 	if (L[i] <= M[j]) {
-		// 		arr[k] = L[i];
-		// 		i++;
-		// 	} else {
-		// 		arr[k] = M[j];
-		// 		j++;
-		// 	}
-		// 	k++;
-		// }
+		while (i < n1 && j < n2) {
+			if (L[i] <= M[j]) {
+				arr[k] = L[i];
+				i++;
+			} else {
+				arr[k] = M[j];
+				j++;
+			}
+			k++;
+		}
 
 		while (i < n1) {
 			arr[k] = L[i];
