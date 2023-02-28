@@ -60,7 +60,6 @@ class Main {
       
      }
     
-    // int[] data = { 8, 7, 2, 1, 0, 9, 6 };
     System.out.println("Unsorted Array");
     System.out.println(Arrays.toString(data));
 
